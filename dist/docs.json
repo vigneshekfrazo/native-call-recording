@@ -1,0 +1,31 @@
+{
+  "api": {
+    "name": "ExamplePlugin",
+    "slug": "exampleplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "initiateCall",
+        "signature": "(options: { phoneNumber: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ phoneNumber: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "initiatecall"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
